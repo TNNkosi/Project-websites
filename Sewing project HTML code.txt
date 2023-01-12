@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>New Sewing Project</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+
+  <body>
+    <h1 id="title">New Sewing Project</h1>
+    <p id="description">All new projects and customer logging</p>
+
+    <form id="survey-form">
+      <fieldset>
+        <label id="name-label">Full name: <input id="name" type="text" required placeholder="Type your full name"/>
+        </label>
+        <label id="email-label">Email address: <input id="email" type="email" placeholder="example@email.com"required>
+        </label>
+        <label id="number-label">Cellphone number: <input id="number" type="number" pattern="[0-9]" min="1" max="999999999" placeholder="0736482947">
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <!-- label, select, option-->
+
+        <label>Measurements
+          <select id="dropdown">
+            <option value=""></option>
+            <option value="">2</option>
+            <option value="">3</option>
+            <option value="">4</option>
+            <option>5</option>
+          </select>
+        </label>
+      </fieldset>
+
+      <fieldset>Pattern alterations needed?
+        <label><input type="radio" name="alterations" value="Yes - Major" class="inline"> Yes - Major </label>
+        <input type="radio" name="alterations" value="Yes - Minor" class="inline"> Yes - Minor </label>
+        <label><input type="radio" name="alterations" value="No" class="inline"> No </label>
+      </fieldset>
+
+      <fieldset>
+        <p text-align:"left">Supplies</p>
+        <label><input type="checkbox" value="pattern" class="inline"> Pattern </label>
+        <label><input type="checkbox" value="checking-2nd-inprogress"class="inline"> Muslin cloth</label>
+        <label><input type="checkbox" value="fashion fabric" class="inline"> Fashion fabric</label>
+<label><input type="checkbox" value="lining" class="inline"> Lining</label>
+<label><input type="checkbox" value="Fashion thread" class="inline"> fashion thread</label>
+<label><input type="checkbox" value="lining thread" class="inline"> Lining thread</label>
+<label><input type="checkbox" value="buttons" class="inline"> Buttons</label>
+<label><input type="checkbox" value="zipper" class="inline"> Zipper</label>
+<label><input type="checkbox" value="clasps" class="inline"> Clasps</label>
+<label><input type="checkbox" value="beading" class="inline"> Beading</label>
+<label><input type="checkbox" value="label" class="inline"> Label</label>
+        </fieldset>
+
+      <fieldset>
+       <label>Additional comments
+         <textarea id="comments" name="comments" rows="4" cols="30" placeholder="Adjust waist seam by....">
+         </textarea>
+       </label>
+      </fieldset>
+<label><input type="file"></label>
+<input id="submit" type="submit" value="Submit" />
+    </form>
+  </body>
+
+</html>
+
+
+
+
+
+
+
+
+============================================
+============================================
+============================================
+
+
+
+
+
+
+============================================
+============================================
+============================================
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>New Sewing Project</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+
+  <body>
+    <h1 id="title">New Sewing Project</h1>
+    <p id="description">All new projects and customer logging</p>
+
+    <form id="survey-form">
+      <fieldset>
+        <label id="name-label">Full name: <input id="name" type="text" required placeholder="Type your full name"/ required>
+        </label>
+        <label id="email-label">Email address: <input id="email" type="email" placeholder="example@email.com"required>
+        </label>
+        <label id="number-label">Cellphone number: <input id="number" type="number" pattern="[0-9]" min="1" max="999999999" placeholder="0736482947" required>
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <!-- label, select, option-->
+
+        <label>Turnaround
+          <select id="dropdown" required>
+            <option value="">(time)</option>
+            <option value="1">1 week</option>
+            <option value="2">2 weeks</option>
+            <option value="3">month</option>
+            <option value="4">2 months</option>
+          </select>
+        </label>
+
+        <label>Transportation
+          <select id="dropdown" required>
+            <option value="">(delivery options)</option>
+            <option value="1">Collection</option>
+            <option value="2">PostNet</option>
+            <option value="3">Hand Deliver</option>
+            <option value="4">Not needed</option>
+          </select>
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <p>Patterns and measurement guide</p>
+
+<label id="waist-size">Bust: <input id="waist-size" type="number" pattern="[0-9]" min="1" max="300" placeholder="78" required>
+        </label>
+<label id="number-label">Waist: <input id="number" type="number" pattern="[0-9]" min="1" max="999999999" placeholder="67" required>
+        </label>
+<label id="waist-size">Hip: <input id="waist-size" type="number" pattern="[0-9]" min="1" max="200" placeholder="87" required>
+        </label>
+
+        <label id="pattern-label">Pattern selected: <input id="pattern" type="text" placeholder="V8369" required></label>
+
+        Pattern alterations needed?
+        <label><input type="radio" name="alterations" value="Yes - Major" class="inline" required> Yes - Major</label>
+        <input type="radio" name="alterations" value="Yes - Minor" class="inline" required> Yes - Minor </label>
+        <label><input type="radio" name="alterations" value="No" class="inline"required> No </label>
+        
+      </fieldset>
+
+      <fieldset>
+        <p text-align:"left">Supplies</p>
+
+        <label><input type="checkbox" value="pattern" class="inline"> Pattern </label>
+        <label><input type="checkbox" value="muslin"class="inline"> Muslin</label>
+        <label><input type="checkbox" value="fashion-fabric" class="inline"> Fashion fabric</label>
+        <label><input type="checkbox" value="lining" class="inline"> Lining</label>
+        <label><input type="checkbox" value="interfacing" class="inline"> Interfacing</label>
+        <label><input type="checkbox" value="fashion thread" class="inline"> Fashion thread</label>
+        <label><input type="checkbox" value="lining thread" class="inline"> Lining thread</label>
+        <label><input type="checkbox" value="buttons" class="inline"> Buttons</label>
+        <label><input type="checkbox" value="zipper" class="inline"> Zipper</label>
+        <label><input type="checkbox" value="clasps" class="inline"> Clasps</label>
+        <label><input type="checkbox" value="beading" class="inline"> Embellishments</label>
+        <label><input type="checkbox" value="label" class="inline"> Label</label>
+        </fieldset>
+
+      <fieldset>
+       <label>Additional comments
+         <textarea id="comments" name="comments" rows="4" cols="30" placeholder="Adjust waist seam by....">
+         </textarea>
+       </label>
+      </fieldset>
+<label>Upload a sketch if available: <input type="file"></label>
+<input id="submit" type="submit" value="Submit" />
+    </form>
+  </body>
+
+</html>

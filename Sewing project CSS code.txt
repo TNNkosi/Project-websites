@@ -1,0 +1,151 @@
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-color: #e19dac;
+  color: #2e093d;
+  font-family: Tahoma;
+  font-size: 16px;
+}
+
+form {
+  min-width: 350px;
+  max-width: 500px;
+  background-color: #c55770;
+  color: #f1f1e8;        /* color of the text*/
+  padding-bottom: 2em;
+  margin: 0 auto;          /*centers the form*/
+}
+
+fieldset {
+  border: none;
+  padding: 20px 0; /* 20px is the distance from the border line, 0px aligns the text to the left*/
+  border-bottom: 4px double #a60b41;
+}
+
+fieldset:last-of-type {
+  border-bottom: none; /* removes funny border at the bottom*/
+}
+
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}  /* makes selction boxes to the end of the line thus stacks*/
+
+input, textarea, select {
+  background-color: #97114c; /* turns the input areas dark pink */
+  border-color: #97114c;
+  color: #f0eceb;
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+h1, p{
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+} 
+
+fieldset {
+  background-color: ;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 50%;
+  margin: 1em auto;
+  height: 3em;
+  background-color: #739ed0; 
+  border-color: #739ed0;
+  min-width: 350px;
+}
+
+
+version 2
+
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-image: linear-gradient(60deg, #eab0a2, #dd98d1, #ffa7a6, #ffdcdc, #d4e0ee);
+  background-size: 100% 500%;
+  color: #2e093d;
+  font-family: Tahoma;
+  font-size: 16px;
+}
+
+form {
+  min-width: 350px;
+  max-width: 500px;
+  background-color: #c55770;
+  color: #f1f1e8;        /* color of the text*/
+  padding-bottom: 2em;
+  margin: 0 auto;          /*centers the form*/
+}
+
+fieldset {
+  border: none;
+  padding: 20px 0; /* 20px is the distance from the border line, 0px aligns the text to the left*/
+  border-bottom: 4px double #a60b41;
+}
+
+fieldset:last-of-type {
+  border-bottom: none; /* removes funny border at the bottom*/
+}
+
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}  /* makes selction boxes to the end of the line thus stacks*/
+
+input, textarea, select {
+  background-color: #97114c; /* turns the input areas dark pink */
+  border-color: #97114c;
+  color: #f0eceb;
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+h1 {
+  padding-top: 1em;
+  color: #e58e23;
+}
+h1, p{
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+} 
+
+fieldset {
+  background-color: ;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 50%;
+  margin: 1em auto;
+  height: 3em;
+  background-color: #f7dd75eb; 
+  border-color: #f7dd75eb;
+  min-width: 350px;
+}
